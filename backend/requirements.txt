@@ -1,0 +1,13 @@
+# Web API framework and the server that runs it
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# Microsoft authentication (token validation helpers, OBO exchange)
+msal>=1.31
+
+# PostgreSQL driver and pgvector support for Python
+psycopg[binary]>=3.2
+pgvector>=0.3
+
+# Reads settings from environment variables / .env
+pydantic-settings>=2.4

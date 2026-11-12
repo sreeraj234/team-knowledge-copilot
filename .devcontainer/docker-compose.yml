@@ -22,8 +22,6 @@ services:
       POSTGRES_USER: copilot_user
       POSTGRES_PASSWORD: dev_password
       POSTGRES_DB: copilot_db
-    ports:
-      - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:

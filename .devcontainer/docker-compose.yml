@@ -3,6 +3,7 @@ services:
     build:
       context: ..
       dockerfile: .devcontainer/Dockerfile
+    working_dir: /workspaces/team-knowledge-copilot
     volumes:
       - ..:/workspaces/team-knowledge-copilot:cached
     command: sleep infinity

@@ -4,6 +4,7 @@ uvicorn[standard]>=0.30
 
 # Microsoft authentication (token validation helpers, OBO exchange)
 msal>=1.31
+httpx>=0.27
 
 # PostgreSQL driver and pgvector support for Python
 psycopg[binary]>=3.2
